@@ -23,6 +23,7 @@
 |lng|double|经度|
 |name|String|地点名称|
 |weight|int|地标权重，在不同缩放程度的地标有不同的权重|
+|s_id|||
 
 ### Spot:
 
