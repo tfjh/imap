@@ -21,7 +21,6 @@
 |p_id|int|ID|
 |lat|double|纬度|
 |lng|double|经度|
-|visited|boolean|是否来过|
 |name|String|地点名称|
 |weight|int|地标权重，在不同缩放程度的地标有不同的权重|
 
@@ -33,7 +32,6 @@
 |lat|double|纬度|
 |lng|double|经度|
 |name|String|景点名称|
-|visited_time|int|当前用户签到次数，大于等于0|
 |last_timel|long|最后一次签到时间（用于计算是否可以签到）|
 |last_times|String|最后一次签到时间，格式：yyyy-MM-dd hh-mm|
 |img_url|String|图片链接|
