@@ -32,8 +32,6 @@
 |lat|double|纬度|
 |lng|double|经度|
 |name|String|景点名称|
-|last_timel|long|最后一次签到时间（用于计算是否可以签到）|
-|last_times|String|最后一次签到时间，格式：yyyy-MM-dd hh-mm|
 |img_url|String|图片链接|
 |content|String|景点介绍；**这应该是我们以后必定要修改的地方，不能只是用一个textview来简单摆放文字信息，而是应该更加人性化，交互更详细，更“复杂”**|
 |tag|ArrayList|标签，在数据传输的时候转换为以符号"@"分割的String|
